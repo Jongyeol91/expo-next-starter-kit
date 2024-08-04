@@ -52,5 +52,6 @@ or
 ## run
 ``` 
 // cd.. (starter-kit root) 
+pnpm install
 pnpm run dev
 ```
