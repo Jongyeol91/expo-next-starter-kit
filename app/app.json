@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "jongyeol-starter-kit",
+    "slug": "starter-kit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "exp+jongyeol-starter-kit",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "jongyeol.starter.kit"
+    },
+    "android": {
+      "package": "jongyeol.starter.kit",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9151ffe1-d9db-400f-bb1d-4f5cacddd336"
+      }
+    },
+    "owner": "jongyeol-park"
+  }
+}
